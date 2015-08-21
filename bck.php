@@ -4,9 +4,9 @@
 	$bck = new backup_bd();
 	
 	// Nome do banco dados
-	$bck -> bancodados="autogest_sistema";
+	$bck -> bancodados="database";
 	// Se você comentar $bck -> tabelas irá fazer backup banco dados inteiro, caso contrário irá fazer backup especifico tabelas.
-	$bck -> tabelas ="tbl_gestor";
+	$bck -> tabelas ="table";
 	// HOST
 	$bck -> host="localhost";
 	// USER
